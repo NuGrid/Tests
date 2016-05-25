@@ -28,3 +28,10 @@ or you can automaticaly download submodules when cloning by adding the flag
 git clone --recursive https://github.com/NuGrid/Sandbox
 `
 
+## Branches ##
+If you switch to a branch with differnt submodules from the current branch then
+there are two possible side effects. Any submodules that are not in the new
+branch will be left as untracked files after checking out the new branch. Any
+submodules that where not in the old branch will not be populated after the new
+branch is checked out, so you will need to call the command `git submodule update`
+so that the submodule is checked out.
