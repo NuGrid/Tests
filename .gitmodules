@@ -1,0 +1,6 @@
+[submodule "NuGridPy"]
+	path = NuGridPy
+	url = https://github.com/NuGrid/NuGridPy
+[submodule "testdir/nugridpy"]
+	path = testdir/nugridpy
+	url = https://github.com/NuGrid/NuGridPy
